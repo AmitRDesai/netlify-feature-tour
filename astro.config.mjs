@@ -10,9 +10,9 @@ export default defineConfig({
       canonicalURL: "https://feature-tour.netlify.app",
     }),
   ],
-  vite: {
-    optimizeDeps: {
-      exclude: ["netlify/functions/hello.ts"],
-    },
-  },
+  // vite: {
+  //   optimizeDeps: {
+  //     exclude: ["netlify/functions/hello.ts"],
+  //   },
+  // },
 });
